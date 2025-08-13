@@ -54,3 +54,15 @@ Summary:
 
 //End of logical operators.
 
+
+
+// All bitwise operators:
+console.log(5 & 3);  // Bitwise AND, output -> 1
+console.log(5 | 3);  // Bitwise OR, output -> 7
+console.log(5 ^ 3);  // Bitwise XOR, output -> 6
+console.log(~5);     // Bitwise NOT, output -> -6
+console.log(5 << 1); // Bitwise left shift, output -> 10
+console.log(5 >> 1); // Bitwise right shift, output -> 2
+
+
+//end of bitwise operators.
