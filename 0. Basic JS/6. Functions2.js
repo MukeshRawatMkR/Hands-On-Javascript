@@ -3,6 +3,7 @@
  */
 
 // String functions
+console.log("mukesh".concat("-"," rawat"));
 console.log("hello".toUpperCase()); // HELLO
 console.log("Hello World".toLowerCase()); // hello world
 console.log("hello world".includes("world")); // true
