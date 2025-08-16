@@ -26,5 +26,28 @@ steps as soon as we run the JS code:
 4. De-optimization may occur if assumptions are invalidated, in this case, the engine may revert to interpretation or recompile the code with different assumptions, for example, if the types of variables change or if the code is no longer considered hot.
 
 and many other optimizations are possible, depending on the specific JavaScript engine and the code being executed.
+*/
+//pure interpreted language is: Bash.
+
+
+//code to check js in hybrid language: (Interpreted)
+console.log("Hello, World!");
+function fn(){
+    varr myname;
+}
+
+//(compiled):
+console.log("Hello, World!");
+console.print("hLee");
+
+/*
+
+Actually every JS code is executed in 2 phases:
+1. Compilation Phase or Pre-Execution Phase or Scope Resolution Phase:
+   - The engine scans the code, creates an Abstract Syntax Tree (AST), and compiles it into bytecode.
+   - Variable and function declarations are hoisted, meaning they are processed before any code is executed.
+2. Execution Phase or Interpretation Phase:
+   - The engine executes the bytecode, line by line.
+   - During execution, the engine creates a memory space for variables and functions, and manages the call stack.
 
 */
