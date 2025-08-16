@@ -11,6 +11,7 @@ function gun(){
 }
 fun();
 gun();
+
 /*
 
 now we'll see how JS executes the code in two phases:
