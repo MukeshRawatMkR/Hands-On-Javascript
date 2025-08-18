@@ -35,5 +35,4 @@ myFunct();
 (function myFuncti(){//IIFE
   console.log("function expression...");
 })();
-
-
+ 
