@@ -43,8 +43,8 @@ map automatically internally calls this function for each element in the array.
 
 2. Named function expression improves readability of the code.
 
-3. Anonymous functions are hard to debug, bcz when you check the call stack of the functions, they you will not find any name for anynous function
-
+3. Anonymous functions are hard to debug, bcz when you check the call stack of the functions, then you will not find any name for anonymous function expression.
+check file no: 19 to see it.
 */
 
 //demo in next file
