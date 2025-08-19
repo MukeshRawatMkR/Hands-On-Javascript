@@ -33,3 +33,4 @@ bcz IIFE gets wiped off from the memory, once the execution is done.
 2. To encapsulate variables and functions, providing privacy.
 3. To create a new scope and avoid polluting the global namespace(scope).
 */
+
