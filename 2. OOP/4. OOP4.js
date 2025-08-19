@@ -1,4 +1,4 @@
-//Creating objects of a class
+//Creating objects of a class: there is a keyword in JS called as 'new' which can help us to create an object out of a class.
 
 
 class Product{
@@ -26,8 +26,14 @@ class Product{
     }
 
 }
+console.log("Testing 1");
+let iPhone = new Product();
+console.log("Testing 2");
+
+console.log(iPhone);//Product { name: undefined, price: undefined, category: undefined, rating: undefined }
+console.log(typeof iPhone);//object
+console.log(iPhone.addToCart());
 
 
-//H/w-> is constructor a keyword(reserved word) in JS?
 
-
+//next file -> IQ: how 'new' keyword works in JS?

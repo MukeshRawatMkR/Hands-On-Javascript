@@ -1,7 +1,7 @@
 //Introducing constructor in classes
 //A very special member function of a class that is automatically called when an object is created.
 //every class we make in JS has a constructor by default, which is called the default constructor.
-//we can change the implemenataion of the default constructor by writing one of our own by using 'constructor' keyword.
+//we can change(override) the implemenataion of the default constructor by writing one of our own by using 'constructor' keyword.
 //We can also create our own constructor in a class.
 
 // so whenever we create an object using classes, the constructor is first method that is automatically called by JS.
@@ -35,7 +35,8 @@ class Product{
 
 
 //H/w-> is constructor a keyword(reserved word) in JS?
-
+let constructor = "constructor";//here i'm able to name a variable name as constructor, which means it's not a reserved word.
+console.log(constructor);
 
 
 //next file -> creating objects of a class
