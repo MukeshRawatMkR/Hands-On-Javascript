@@ -64,5 +64,4 @@ console.log(history.length);
 //URL object
 console.log(new URL(location.href));
 
-
 //If some variable or function is not available in the current scope, it'll look into the window object.
