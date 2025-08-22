@@ -31,3 +31,7 @@ class Product{
 let iPhone = new Product("iPhone 14", 109999, "Electronics", 4.5);
 // console.log(new Product("iPhone 14", 109999, "Electronics", 4.5));//Product { name: 'iPhone 14', price: 109999, category: 'Electronics', rating: 4.5 }
 // console.log(iPhone);//Product { name: 'iPhone 14', price: 109999, category: 'Electronics', rating: 4.5 }
+
+
+
+//next file -> this keyword 
