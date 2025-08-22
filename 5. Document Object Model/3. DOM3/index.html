@@ -1,25 +1,39 @@
 <!--DOM manipulation Project: Todo List-->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
-    <h1>Todo list</h1>
-    <input type="text"  id="new-todo" placeholder="Add a new todo">
-    <button id="add-todo">Add Todo</button>
-  
-    <ul id="taskList">
-      <!--here we display the todo items-->  
-    </ul>
+      <h1>Todo list</h1>
+      <input type="text" id="new-todo" placeholder="Add a new todo" />
+      <button id="add-todo">Add Todo</button>
 
-</div>
-</body>
+      <ul id="taskList">
+        <!--here we display the todo items-->
+      </ul>
+    </div>
+    <script>
+      function loadToDOs() {
+        const todos = JSON.parse(localStorage.getItem("todos")) || []; //accesiing BOM.
+        console.log(todos);
+      }
+
+      document.addEventListener("DOMContentLoaded", () => {
+        const todoInput = document.getElementById("new-todo");
+        todoInput.addEventListener("change", () => {
+          console.log("Something has been updated");
+        });
+        loadToDOs();
+        //  window.alert('DOM fully loaded and parsed');
+      });
+      // console.log("it'll only be printed when the DOM is fully loaded and parsed, which  means after the DOMContentLoaded event.");
+    </script>
+  </body>
 </html>
-
 
 <!--this is a comment-->

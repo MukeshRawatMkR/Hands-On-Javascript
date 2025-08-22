@@ -11,7 +11,7 @@ class Person {
         console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
     }
 }
-// console.log(typeof Person);//function, bcz functions are first-class objects in JS.
+// console.log(typeof Person);//function, bcz functions are first-class objects in JS, class is nothing but a wrapper around the function.
 // console.log(Person);//class Person { ... }
 console.log("1");
 const john = new Person("Mukesh Rawat", 25);
