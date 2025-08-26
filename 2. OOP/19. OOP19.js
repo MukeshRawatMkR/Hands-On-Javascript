@@ -50,6 +50,8 @@ person.displayPerson();
 
 //now with builder pattern we have solved the issue of having a large constructor with many parameters and validation logic in the constructor itself.
 
-
-
-//47
+//but the cons of using builder pattern
+//1. Complexity: The builder pattern can introduce additional complexity to the codebase, as it requires the creation of separate builder classes and methods.
+//2. Verbosity: The code can become more verbose, as it requires multiple method calls to set each property.
+//3. Performance: In some cases, the builder pattern may have a slight performance overhead due to the creation of multiple objects.
+//4. Less Parameters: if we have less parameters to set, the builder pattern may be overkill and add unnecessary complexity.
