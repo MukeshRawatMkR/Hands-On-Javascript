@@ -70,3 +70,5 @@ let obj = new Product("iPhone 14", 999, "Electronics", 4.5);
 
 obj.setRating(5.7);
 console.log(obj.getRating());
+
+//problems with this class: the constructor is getting too many parameters, for that we have a design pattern called "Constructor Overloading" or "Builder Pattern" to solve this issue.
