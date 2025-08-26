@@ -15,7 +15,7 @@ class Person {
         console.log(this.name + " is " + this.age + " years old.");
     }
 
-static get Builder(){
+static get Builder(){//this returns a class, to build our Builder object for line number 5.
     class Builder {
         constructor() {
             this.name = "";
@@ -32,8 +32,8 @@ static get Builder(){
             return this;
         }
 
-        build() {
-            return new Person(this);
+        build() {//returns a new instance of Person
+            return new Person(this);//this points to builder object, that we will pass to Person constructor.
         }
     }
     return Builder;//it's a class.
@@ -49,3 +49,7 @@ const person = new Person.Builder()
 person.displayPerson();
 
 //now with builder pattern we have solved the issue of having a large constructor with many parameters and validation logic in the constructor itself.
+
+
+
+//47
