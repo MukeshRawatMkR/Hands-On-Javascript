@@ -10,3 +10,5 @@ console.log(extendedNumbers); // [3, 4, 5, 7, 8]
 
 //in array des sequencing matters but the name does not.
 //but in object destructuring, the order doesn't matter, but the name does.
+
+//next folder: Prototypes in OOP
