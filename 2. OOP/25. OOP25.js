@@ -1,6 +1,15 @@
 // Rest parameters
-const sum = (...args) => {
-    return args.reduce((acc, curr) => acc + curr, 0);
+const person = {
+    fName: "Mukesh",
+    lName: "Rawat",
+    age: 25,
+    sex: "Male"
 };
 
-console.log(sum(1, 2, 3, 4, 5)); // 15
+console.log(person);
+
+const {sex, ...restPerson} = person;//to remove sex key and value from person object and return the rest object. using 'rest' parameters
+console.log(restPerson);
+
+
+//next file: array destructuring
