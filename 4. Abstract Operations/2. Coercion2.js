@@ -21,3 +21,6 @@ let z = 1;
 console.log(!z); 
 
 //Not operator internally uses ToBoolean.
+
+
+//next file: ToNumber
