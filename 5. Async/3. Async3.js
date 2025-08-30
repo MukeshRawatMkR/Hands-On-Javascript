@@ -13,3 +13,6 @@ console.log("end");
 
 //event loop is a part of runtime as well.
 //When you call setTimeout, fetch, addEventListener, etc., the JS engine delegates them to the Web APIs layer provided by the browser (not the JS engine itself).
+
+
+//next file: dry run with callbacks.

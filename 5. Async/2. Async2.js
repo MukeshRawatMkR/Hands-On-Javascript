@@ -41,5 +41,7 @@ fetchData(function(err,data){
 or my def: we give our function as a callback to some HOF, and that HOF has control over when to call our function, so we lose control over when our function is executed, they might call it multiple times, or not at all or mess things up.
 */
 
+//to encounter these 3 cons of callbacks we use Promise.
+
 
 //next file: uses of callbacks in async programming.
