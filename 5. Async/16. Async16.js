@@ -1,9 +1,5 @@
 //more code
 
-
-//H.W: what .then() returns and what is .catch() for?
-
-
 console.log("start");
 setTimeout(() => {
     console.log("timer 1 Done");
@@ -28,3 +24,5 @@ promise.then(function f(value) { console.log("executing f", value) }, function g
 
 for (let index = 0; index < 1000000000; index++) { };
 console.log("The End");
+
+
