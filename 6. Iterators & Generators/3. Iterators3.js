@@ -1,0 +1,1 @@
+//Iterators design pattern helps us to write declarative programming.
