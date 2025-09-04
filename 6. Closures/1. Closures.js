@@ -1,10 +1,19 @@
-function ouf(name){
-    let name="Mukesh Rawat";
-    function inf(){
-        console.log(name);
+function process(){
+    let i = 0;
+    function innerProcess(){
+        i += 1;
+        console.log("inside innerProcess: " + i);
+        return i;
     }
-    inf();
+    return innerProcess;//we are just returning the function, not calling it.
 }
 
-let a=ouf();
-console.log(a);
+let result=process();//returns innerProcess function
+console.log(result);
+console.log(result());
+console.log(result());
+console.log(result());
+
+
+
+//For more knowledge: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Closures
