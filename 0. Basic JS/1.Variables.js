@@ -1,12 +1,21 @@
+/*
+Total Data types:
+Undefined, Null, Boolean, String, Symbol, Number and object.
+
+*/
+
 // THis is comment 
-/*Hello Guys
+/*
+Hello Guys
 */
 var name = "John Doe";
-let name2 = "Mukesh Rawat";
+let name2 = 'Mukesh Rawat';
 const name3 = "Rohit Kumar";
 
 let bigNumber = 1234567890123456789184840n;//stores big integer.
 console.log(typeof(bigNumber));
+console.log(typeof null);//object, which is a historically mistake done by JS community, now they can't change it.
+
 
 var name4 = `Hello My Name is Mukesh Rawat`;
 
@@ -34,3 +43,5 @@ console.log(name2);
 console.log("Hello Guys:", name, ",", name2, ",", name3);
 
 console.log(name4);
+
+

@@ -1,11 +1,16 @@
+/*
+Falsy values in JS: '', undefined, Nan, null, 0, -0, false.
+rest are truthy values in JS.
+*/
+
 var x = 10;
 console.log(x ** 2); //exponentiation operator
 
 //logical operator (short circuiting): 
 //use case in real world application -> conditional rendering in React, and authentication flows.
 //AND -> if first value is falsy, then dont even try to evaluate second value and return first value.
-//if first value is truthy, then return second value.
-console.log(30 && 45);
+//if first value is truthy, then return second value.basically here we are following the short circuit rule:
+console.log(0 && 45);
 console.log(30 && 0);
 console.log(0 && 45);
 console.log(undefined && 45);//undefined
@@ -46,10 +51,12 @@ console.log(null == undefined);//true
 console.log(null === undefined);//false
 console.log(NaN === NaN);//false
 console.log(NaN == NaN);//false
+console.log(1 == "Mukesh");//1 == NaN -> false
 
 /*
 Summary:
--> Loose equality (==) performs type coercion, while strict equality (===) does not.
+-> both checks the type of value.
+-> Loose equality (==) performs type coercion if possible and then comparison is done, while strict equality (===) does not.
 */
 
 //End of logical operators.
