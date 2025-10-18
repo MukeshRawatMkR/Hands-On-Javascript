@@ -1,4 +1,6 @@
+
 //Heart of JavaScript.
+//In JS if I don't return any value from the function, it automatically returns 'undefined'.
 
 /**
  * 1. Function Declaration

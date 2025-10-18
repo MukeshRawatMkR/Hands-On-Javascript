@@ -53,30 +53,34 @@
 *Done*
 
 19. 
-*Not Done*
+*Done*
 20. 
-*Not Done*
+*Done*
 21. 
 *Not Done*
 22. 
 *Not Done*
 23. 
-*Not Done*
+*Done*
 24. 
+*Done*
+25. 
 *Not Done*
-25.  -  *(Not Done)*
-26.  -  *(Not Done)*
-27.  -  *(Not Done)*
-28.  -  *(Not Done)*
+26. 
+*Not Done*
+27. 
+*Done*
+28. 
+*Done*
 
 
-29.  -  *(Not Done)*
-30.  -  *(Not Done)*
-31.  -  *(Not Done)*
+29.  -  *(Done)*
+30.  -  *(Done)*
+31.  -  *(Done)*
 32.  -  *(Not Done)*
-33.  -  *(Not Done)*
-34.  -  *(Not Done)*
-35.  -  *(Not Done)*
+33.  -  *(Done)*
+34.  -  *(Done)*
+35.  -  *(Done)*
 36.  -  *(Not Done)*
 37.  -  *(Not Done)*
 38.  -  *(Not Done)*
@@ -85,5 +89,39 @@
 41.  -  *(Not Done)*
 42.  -  *(Not Done)*
 43.  -  *(Not Done)*
-44.  -  *(Not Done)*
-45.  -  *(Not Done)*
+
+
+44.  -  *(Done)*
+45.  -  *(Done)*
+46.  -  *(Done)*
+47.  -  *(Done)*
+48.  -  *(Done)*
+49.  -  *(Done)*
+50.  -  *(Done)*
+51.  -  *(Not Done)*
+52.  -  *(Not Done)*
+53.  -  *(Not Done)*
+54.  -  *(Not Done)*
+55.  -  *(Not Done)*
+56.  -  *(Not Done)*
+57.  -  *(Not Done)*
+58.  -  *(Not Done)*
+59.  -  *(Not Done)*
+60.  -  *(Not Done)*
+
+
+61.  -  *(Not Done)*
+62.  -  *(Not Done)*
+63.  -  *(Not Done)*
+64.  -  *(Not Done)*
+65.  -  *(Not Done)*
+66.  -  *(Not Done)*
+67.  -  *(Not Done)*
+68.  -  *(Not Done)*
+69.  -  *(Not Done)*
+70.  -  *(Not Done)*
+71.  -  *(Not Done)*
+72.  -  *(Not Done)*
+73.  -  *(Not Done)*
+74.  -  *(Not Done)*
+75.  -  *(Not Done)*

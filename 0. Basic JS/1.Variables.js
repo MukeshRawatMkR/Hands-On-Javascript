@@ -45,3 +45,7 @@ console.log("Hello Guys:", name, ",", name2, ",", name3);
 console.log(name4);
 
 
+//6 =+%
+//console.log returns undefined. 
+let printt=console.log("Mukesh Rawat");
+console.log(printt);
