@@ -98,8 +98,11 @@
 48.  -  *(Done)*
 49.  -  *(Done)*
 50.  -  *(Done)*
-51.  -  *(Not Done)*
-52.  -  *(Not Done)*
+51.  -  *(Done)*
+52. 
+*what all values we can and cant store in Switch -> https://chatgpt.com/c/68f3b4e9-d2e4-8324-a7ed-628f7cf48745*
+
+*(Done)*
 53.  -  *(Not Done)*
 54.  -  *(Not Done)*
 55.  -  *(Not Done)*
@@ -110,14 +113,15 @@
 60.  -  *(Not Done)*
 
 
-61.  -  *(Not Done)*
-62.  -  *(Not Done)*
-63.  -  *(Not Done)*
-64.  -  *(Not Done)*
-65.  -  *(Not Done)*
+61.  -  *(Done)*
+62.  -  *(Done)*
+63.  -  *(Done)*
+64.  -  *(Done)*
+65.  -  *(Done)*
 66.  -  *(Not Done)*
 67.  -  *(Not Done)*
-68.  -  *(Not Done)*
+
+68.  -  *(WIP)*
 69.  -  *(Not Done)*
 70.  -  *(Not Done)*
 71.  -  *(Not Done)*

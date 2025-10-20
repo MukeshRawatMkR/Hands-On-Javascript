@@ -1,3 +1,8 @@
+/*
+arrays are mutable, while strings are immutable in JS.
+In arr, updating value in particular index is possible, but in string it is not possible.
+*/
+
 //In JS, arrays are objects that allow you to store multiple values in a single variable.
 let arr1 = []; //empty array
 let arr2 = [undefined, null, "Mukesh"]; //array with mixed values(heterogeneous values).
