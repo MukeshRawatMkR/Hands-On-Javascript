@@ -2,6 +2,9 @@
     JavaScript Scopes Explained
 */
 
+//var is both function scoped and globally scoped variable.
+//var supports hoisting.
+
 // 1. Global Scope
 var globalVar = "I'm global!";
 

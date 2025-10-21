@@ -1,4 +1,12 @@
 /*
+for...in → Iterate over object keys. Example: process API response fields.
+
+for...of → Iterate over iterable data. Example: loop through orders or products.
+
+forEach() → Run callback for each array item. Example: render product cards.
+*/
+
+/*
 1. for loop
     - Use when you know how many times to iterate.
 */
