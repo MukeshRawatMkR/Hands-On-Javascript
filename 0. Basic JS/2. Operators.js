@@ -1,15 +1,17 @@
 /*
-Falsy values in JS: '', undefined, Nan, null, 0, -0, false.
+Note:-> Falsy values in JS: '', undefined, Nan, null, 0, -0, false.
 rest are truthy values in JS.
 */
 
 var x = 10;
-console.log(x ** 2); //exponentiation operator
+console.log(x ** 2); //exponentiation operator -> 100
 
 //logical operator (short circuiting): 
 //use case in real world application -> conditional rendering in React, and authentication flows.
-//AND -> if first value is falsy, then dont even try to evaluate second value and return first value.
-//if first value is truthy, then return second value.basically here we are following the short circuit rule:
+/*
+Note:-> AND -> if first value is falsy, then dont even try to evaluate second value and return first value.
+if first value is truthy, then return second value. basically here we are following the short circuit rule:
+*/
 console.log(0 && 45);
 console.log(30 && 0);
 console.log(0 && 45);
@@ -41,6 +43,7 @@ console.log("" || -0);//-0
 
 
 
+
 //logical operators: strict equality operator(===) vs loose equality (==) AKA abstract equality operator.
 console.log(0 === 0);//true
 console.log(0 === "0");//false
@@ -63,7 +66,7 @@ Summary:
 
 
 
-// All bitwise operators:
+// All bitwise operators: -> bit by bit on the given operand. 
 console.log(5 & 3);  // Bitwise AND, output -> 1
 console.log(5 | 3);  // Bitwise OR, output -> 7
 console.log(5 ^ 3);  // Bitwise XOR, output -> 6

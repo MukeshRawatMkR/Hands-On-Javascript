@@ -13,6 +13,7 @@ console.log("global num after add: ", num);//which means nums is passed by value
 
 
 // if we do not return a value from the function, it will return undefined by default.
+
 //for example:
 function noReturn() {
   let a = 5;

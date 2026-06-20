@@ -22,3 +22,7 @@ else{
 // if above conditions are false
 };
 
+
+//Ternary Operator. 
+let ternaryOp = (5>7)? "hi":"Bye";
+console.log(ternaryOp);

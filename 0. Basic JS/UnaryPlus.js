@@ -2,5 +2,14 @@
 //6 = + %
 let x ='22';
 console.log(typeof x);
-x=+x;
+console.log(x);
+
+x =+x;
 console.log(typeof x);
+console.log(x);
+
+//it'll negate the number. 
+let z ='-22';
+let n=-z;
+// console.log(typeof n);
+console.log(n);

@@ -8,7 +8,7 @@ but To print objects with for...of, use Object.keys(), Object.values(), or Objec
 for...in → works on object keys.
 
 */
-
+ 
 let arr = [1,2,3];
 for (const element of arr) {
     console.log(element);
@@ -25,3 +25,6 @@ let obj={
     age:25
 };
 
+/*
+for...of loops over the values of any iterable (arrays, strings, Maps, Sets), and is cleaner than for...in (which gives keys, mainly for plain objects). For arrays you get items directly, for strings you get characters, for Maps you get [key, value] pairs, and .entries() or Object.entries() let you get indices/keys alongside values when needed. Plain objects aren't iterable on their own, so Object.entries() is the bridge.
+*/

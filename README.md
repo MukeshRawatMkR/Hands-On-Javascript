@@ -194,3 +194,45 @@
 10. -
 11. -
 12. - 
+
+
+### 0six - HOF In JS 🤍 *(WIP)*
+01. - *Done* 
+02. - *WIP*
+03. - 
+04. -
+05. - 
+06. -
+07. -
+08. -
+09. -
+10. -
+
+
+
+
+
+
+
+
+
+
+
+
+### 12 - OOP In JS 🤍 *(WIP)*
+01. - Done
+02. - Done
+03. - Done
+04. - Done
+05. - Done
+06. - Done
+07. - Done
+08. - Done
+09. - Done
+10. - Done
+11. - Done & Prototype ->  https://chatgpt.com/c/6906d1e0-17f0-8320-845e-b8be51c86d93 
+12. - 
+13. -
+14. -
+15. -
+16. -

@@ -6,6 +6,8 @@ let x ='22';
 console.log(x);
 
 console.log(typeof x);
-x=-x;
-console.log(typeof x);
-console.log(x);
+y=-x;
+console.log(typeof y);
+console.log(y);
+
+//Note: it doesn't convert tehe original operand like in above example x is string but y is now a number. 
